@@ -4,9 +4,9 @@ import requests
 import subprocess
 import signal
 
-NGROK_CONFIG = r'C:\Users\EIZY\AppData\Local/ngrok/ngrok.yml'
-NGROK_API_URL = 'http://localhost:4040/api/tunnels'
-LARAVEL_UPDATE_URL = 'https://weather.kemala-smart-v2.com/api/update-ngrok-urls'
+NGROK_CONFIG = 'ngrok.yml'
+NGROK_API_URL = 'tunnels'
+LARAVEL_UPDATE_URL = 'update_ngrok'
 TIMEOUT_TUNNEL = 30
 REFRESH_INTERVAL = 1020
 
